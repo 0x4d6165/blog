@@ -2,9 +2,9 @@ nav:
   Home: /
   About: /about/
   Writing: /archives/
-  Projects: http://github.com/probberechts
+  Projects: https://github.com/gigavinyl
 
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/gigavinyl
 
 customize:
     logo:
@@ -12,16 +12,14 @@ customize:
         width: 50
         height: 50
         url: /images/logo.png
-    favicon: 
+    favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop: /images/favicon.ico
       android: /images/favicon-192x192.png
       apple: /images/apple-touch-icon.png
     social_links:
-        github: http://github.com/probberechts/cactus-dark
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: https://github.com/gigavinyl
+        twitter: https://twitter.com/gigavinyl
     post_count: 5
     highlight: rainbow
 
@@ -30,7 +28,7 @@ rss: false
 
 # Plugins
 plugins:
-    disqus_shortname: # Disqus Comments Shortname
+    disqus_shortname: gigavinyl-com
     google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
