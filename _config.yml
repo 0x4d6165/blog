@@ -70,3 +70,10 @@ theme: cactus-dark
 deploy:
   type: git
   repository: git@github.com:gigavinyl/gigavinyl.github.io.git
+
+nav:
+  Home: /
+  About: /about/
+  Writing: /archives/
+  Projects: https://github.com/gigavinyl
+  LINK_NAME: URL
