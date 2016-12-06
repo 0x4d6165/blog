@@ -7,6 +7,7 @@
       </span>
       <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
       <%- partial('_partial/post/tag') %>
+      <%- readingTime(page.content) %>
     </div>
   </header>
   <%- partial('_partial/post/gallery') %>

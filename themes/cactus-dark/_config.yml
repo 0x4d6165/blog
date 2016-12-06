@@ -24,7 +24,7 @@ customize:
     highlight: rainbow
 
 # RSS
-rss: false
+rss: atom.xml
 
 # Plugins
 plugins:

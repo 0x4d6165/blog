@@ -35,4 +35,28 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
+
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### Elixir test
+``` elixir
+current_process = self()
+
+# Spawns an Elixir process (not an operating system one!)
+spawn_link(fn ->
+  send current_process, {:msg, "hello world"}
+end)
+
+# Block until the message is received
+receive do
+  {:msg, contents} -> IO.puts contents
+end
+```
+### Elm test
+``` elm
+import Html exposing (text)
+
+main =
+  text "Hello, World!"
+```
+
