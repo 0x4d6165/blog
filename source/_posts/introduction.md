@@ -1,6 +1,6 @@
 ---
 
-title: introduction. date: 2016-12-19 00:07:22 tags: projects purescript
+title: introduction. date: 2016-12-19 00:07:22 tags: projects elm
 bendy_cucumber.exe haskell functional_programming
 
 ---
